@@ -46,9 +46,11 @@ Sets the default font size to 10px when using 1 rem which makes it easier to the
 
 4. How would you describe preprocessing to someone new to CSS?
 
-Preprocessing is a tool used to not only better organize our css code but a tool that allows us to create varbiables to make quick changes across a whole page and also help us save time with styling needs through the use of 
+Preprocessing is a tool used to not only better organize our css code but a tool that allows us to create varbiables to make quick changes across a whole page and also help us save time with styling needs through the use of parametric mixins.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept would definitely have to be nesting in LESS and parametric mixins. Even though I like nesting alot its still the more challenging part of preprocessing but with the help of the inspect tool its usually fairly easy to see where I went wrong and fix it.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
