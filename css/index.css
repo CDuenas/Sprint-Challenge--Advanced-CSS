@@ -199,6 +199,10 @@ footer {
 .home .intro p {
   padding: 0 15px;
 }
+.home .intro img {
+  width: 50vw;
+  border-radius: 8px;
+}
 .home .space-images {
   display: flex;
   flex-wrap: wrap;
