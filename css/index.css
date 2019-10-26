@@ -175,13 +175,13 @@ p {
 }
 .nav-container nav {
   width: 25%;
+  white-space: nowrap;
 }
 .nav-container a {
   text-decoration: none;
   color: #454A59;
   font-size: 2vh;
   padding: 0 2%;
-  white-space: nowrap;
 }
 @media (max-width: 500px) {
   .nav-container nav {
