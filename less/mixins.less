@@ -1,1 +1,30 @@
 // Mixins Here
+.button(@height, @width){
+    height: @height;
+    width: @width;
+    border-radius: 4px;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 2%;
+    color: @sea-shell;
+    background-color: @btn-bg-color;
+    &:hover{
+        background-color: @sea-shell;
+        color: @btn-bg-color;
+    }
+
+    @media @mobile {
+        width: 100%;
+        height: 6vh;
+        padding-top: 5%;
+    }
+}
+
+.flex(@justify) {
+    display: flex;
+    justify-content: @justify;
+}
+
+.img-off() {
+    display: none;
+}
